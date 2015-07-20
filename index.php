@@ -1,6 +1,5 @@
 <?php
 require( "loading.php" ); 
-require( "instructions.php" );
 require( "config.php" );
 
 $action = isset( $_GET['action'] ) ? $_GET['action'] : "";
